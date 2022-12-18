@@ -40,7 +40,7 @@ def fibonacci(n):
             return cache[n]
     return fib(n)
 
-print(fibonacci(1000000))
+print(fibonacci(100))
 
 if __name__ == '__main__':
     main()
